@@ -337,3 +337,8 @@ p {
     gap: 0.5rem !important;
   }
 }
+/* Profile Icon */
+.profile-icon:hover {
+  background-color: var(--accent-hover) !important;
+  transform: scale(1.05);
+}

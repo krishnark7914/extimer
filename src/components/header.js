@@ -14,18 +14,18 @@ export function renderHeader(element, props) {
         <div style="font-weight: 500; color: var(--text-primary);">User Profile</div>
         <div style="font-size: 0.75rem; color: var(--text-secondary);">user@example.com</div>
       </div>
-      <div style="
+      <div class="profile-icon" style="
         width: 40px; 
         height: 40px; 
-        background-color: var(--border-color); 
+        background-color: var(--accent-color); 
         border-radius: 50%; 
         display: flex; 
         align-items: center; 
         justify-content: center;
         cursor: pointer;
-        overflow: hidden;
+        transition: background-color 0.2s ease;
       ">
-        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Felix" alt="Avatar" style="width: 100%; height: 100%;">
+        <i data-lucide="user" style="width: 20px; height: 20px; color: white;"></i>
       </div>
       <button class="btn btn-outline logout-btn" style="padding: 0.5rem; font-size: 0.875rem;">Logout</button>
     </div>
