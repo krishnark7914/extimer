@@ -1,4 +1,4 @@
-# 🚀 Deployment Guide for Extimer
+# Deployment Guide for Extimer
 
 ## Step 1: Push to GitHub
 
@@ -45,7 +45,7 @@ git push -u origin main
 5. Select your `extimer` repository
 6. Vercel will auto-detect Vite settings
 7. Click "Deploy"
-8. Wait 1-2 minutes - Done! 🎉
+8. Wait 1-2 minutes - Done!
 
 Your app will be live at: `https://extimer-YOUR_USERNAME.vercel.app`
 
@@ -116,18 +116,18 @@ Your app will be live at: `https://YOUR_USERNAME.github.io/extimer`
 
 ---
 
-## 🎯 Recommended Choice
+## Recommended Choice
 
 **Use Vercel** - It's the easiest and fastest option:
-- ✅ Zero configuration needed
-- ✅ Automatic deployments on every push
-- ✅ Free SSL certificate
-- ✅ Lightning-fast global CDN
-- ✅ Custom domain support (free)
+- Zero configuration needed
+- Automatic deployments on every push
+- Free SSL certificate
+- Lightning-fast global CDN
+- Custom domain support (free)
 
 ---
 
-## 📝 Next Steps After Deployment
+## Next Steps After Deployment
 
 1. Test your live app on mobile devices
 2. Share the URL with friends
@@ -136,7 +136,7 @@ Your app will be live at: `https://YOUR_USERNAME.github.io/extimer`
 
 ---
 
-## 🆘 Troubleshooting
+## Troubleshooting
 
 ### Build fails on Vercel/Netlify
 - Check that `package.json` has all dependencies
